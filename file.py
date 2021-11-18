@@ -3,7 +3,7 @@ is_oven_on = False
 fruit = "apple"
 
 def prepMyFruit(quantity, fruit, pie_crust):
-    print(f"You put {quantity} {fruit} on the crust")
+    print("You put {} {} on the crust".format{quantity, fruit})
     pie_crust = f"filled with delicious {fruit}"
     return pie_crust
 
