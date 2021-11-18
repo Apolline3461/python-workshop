@@ -1,7 +1,10 @@
-import sys
+import sys as sy
 
-sy = sys
-
-def get_sy_argc():
+def get_sys_argc():
+    try:
+        print("Success", file=stdout)
+    except:
+        print("You must import all the sys module")
     return len(sy.argv)
-print(get_sy_argc())
+
+get_sys_argc()
